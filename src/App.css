@@ -1,0 +1,119 @@
+@import url('http://fonts.cdnfonts.com/css/pokemon-solid');
+
+:root{
+    font-family: 'Pokemon Solid', sans-serif;
+    /* font-weight: 400; */
+    color: yellow;
+    /* text-shadow: -5px 0 blue, 0 5px blue, 5px 0 blue, 0 -5px blue; */
+    font-size: 0.8em;
+    background-image: url(../public/Images/wallpaper.jpg);
+    background-size: cover;
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: blue;
+}
+
+
+.main_home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+
+}
+.home_input{
+    display: flex;
+    justify-content: space-around;
+}
+
+.main_pokedex{
+    display: flex;
+    flex-direction: column;
+    font-weight: 100;
+}
+.srch_fltr_pokedex{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em;
+}
+.pokemons_pokedex{
+    display: flex;
+    gap: 0.3em;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.main_card{
+    cursor: pointer;
+    border-radius: 1em;
+    border: 10px solid black;
+    width: 300px;
+    padding: 1em;
+    background-image: url(../public/Images/backgroundcard.webp);
+    background-size: cover;
+}
+
+.image_card img{
+    height: 200px;
+    width: 200px;
+}
+
+.image_card {
+    display: flex;
+    justify-content: center;
+}
+
+.a_card, .t_card{
+    display: flex;
+    justify-content: space-around;
+}
+
+.pages{
+    display: flex;
+    justify-content: center;
+}
+
+.pages button{
+    cursor: pointer;
+}
+
+.stats{
+    display: flex;
+    flex-wrap: wrap;
+}
+.main_pokeid{
+    /* cursor: pointer;
+    border-radius: 1em;
+    border: 10px solid black;
+    width: 300px;
+    padding: 1em;*/
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.card_pokeid{
+    width: 600px;
+    padding: 1em;
+    background-image: url(../public/Images/backgroundcard.webp);
+    background-size: cover; 
+    border-radius: 1em;
+    border: 5px solid black;
+}
+.image_pokeid img{
+    width: 200px;
+    height: 200px;
+}
+
+.image_pokeid{
+    display: flex;
+    justify-content: center;
+}
+
+.stats{
+    display: flex;
+}
